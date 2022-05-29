@@ -1,0 +1,55 @@
+{"intents":  [
+    {"tag": "greetings",
+    "patterns": ["hola", "buenos dias", "buenas tardes", "que tal", "mucho gusto", "hey"],
+    "responses": ["Hola! Bienvenido a la tienda. En qué puedo ayudarte?", 
+        "Mucho gusto. Que puedo hacer por ti?", "Bienvenido. Necesitas ayuda?"]},
+
+    {"tag": "goodbye",
+    "patterns": ["gracias", "hasta luego", "saludos", "muchas gracias", "adios", "le agradezco"],
+    "responses": ["De nada! Hasta luego!", "De nada! Gracias por visitarnos!", "Esperamos que vuelvas pronto!"]},
+
+    {"tag": "shop",
+    "patterns": ["ubicacion", "donde estan ubicados", "local", "donde los puedo encontrar", "establecimiento", "contacto"],
+    "responses": ["Estamos ubicados en la calle de Las Lomas #7 del Centro Historico, CDMX. C.P: 07261."]},
+
+    {"tag": "hours",
+    "patterns": ["a que hora abren", "horario", "hora", "horas de apertura", "abierto"],
+    "responses": ["Nuestros horarios de atencion son de lunes a viernes de 9:00 a.m. a 9:00 p.m."]},
+
+    {"tag": "stocks",
+    "patterns": ["que venden", "productos", "categorias", "oferta", "venta", "stock", "inventario"],
+    "responses": ["Tenemos una amplia gama de equipos de computacion, perifericos y accesorios: CPU, GPU, Motherboards, RAM, Perifericos, Discos Duros, SSD, etc. Que necesitas?"]},
+
+    {"tag": "CPU-Gaming",
+    "patterns": ["cpu para videojuegos", "procesador gaming", "procesador para juegos", "cpu juegos", "procesador videojuegos"],
+    "responses": ["Los procesadores de videojuegos de Intel y AMD son los mas populares en el mercado. Los videojuegos actuales aprovechan como maximo configuraciones de 6 nucleos; aunque un procesador de 4 nucleos sigue siendo una buena opcion con un presupuesto limitado. Te recomendamos los siguientes procesadores: AMD Ryzen 5 5600X, i5-12400 e i3-12100."]},
+    
+    
+    {"tag": "GPU-Gaming",
+    "patterns": ["gpu videojuegos", "tarjeta graficas gaming", "tarjeta gaming", "nvidia gaming", "amd gaming", "rtx", "rx", "gtx", "tarjeta grafica videojuegos", "gpu gaming", "raytracing", "fsr", "RT"],
+    "responses": ["Tanto NVIDIA como AMD ofrecen soluciones para tus horas de diversion. Si buscas lo mejor del mercado, te recomendamos las siguientes tarjetas graficas: NVIDIA GeForce RTX 3060TI y AMD Radeon RX 6700XT. Si nunca quieres quedarte corto de VRAM y tu presupuesto es menor, tenemos la RTX 3060 todoterreno"]},
+
+    
+    {"tag": "Motherboards-Gaming",
+    "patterns": ["placa madre gaming", "placa madre para videojuegos", "placa madre juegos", "placa madre videojuegos", "motherboard gaming", "mother videojuegos", "mother gaming"],
+    "responses": ["La motherboard es lo que conecta a todo tu equipo. Las motherboards de Intel y AMD son distintas, y  ademas, no todas son compatibles con distintas generaciones de CPUs por lo que debes elegirlas con cuidado. Una buena placa te dara una experiencia de juego mas agradable y la posibilidad de hacer Overclock. Nuestras consentidas son las ROG Strix, las MSI Mortar y las AORUS Master. ;)"]},
+
+    {"tag": "RAM",
+    "patterns": ["ram", "memoria ram", "memoria", "sticks", "8gb ram", "ram rgb", "ram argb", "ram gaming", "ddr3", "ddr4", "ddr5"],
+    "responses": ["La RAM permite cargar con velocidad tus programas. Si eres un gamer, te recomendamos minimo 16GB de RAM, mientras que si eres un usuario casual con 8GB de RAM tendras suficiente. Pero si eres un profesional, de preferencia deberias usar 32GB. Te recomendamos las siguientes marcas: Kingston Fury, TEAM Group, Corsair y XPG"]},
+    
+
+    {"tag": "GPU-Profesional",
+    "patterns": ["blender", "maya", "render", "trabajo", "profesional", "efectos", "ia", "machine learning", "deep learning"],
+    "responses": ["NVIDIA ofrece soluciones avanzadas para usuarios profesionales con las increibles RTX A-Series mientras que AMD se lanza al campo con las Radeon Instinct. Si deseas comprar una de estas GPU's por favor contactanos para verificar disponibilidad."]},
+
+    
+    {"tag": "CPU-Profesional",
+    "patterns": ["photoshop", "video", "edicion", "produccion", "procesamiento", "poder computo", "performance", "alto rendimiento", "workstation", "estacion de trabajo", "highend"],
+    "responses": ["Ofrecemos soluciones de workstations de consumo con procesadores de gama alta de Intel y AMD como los i9 12900K y los Ryzen 9 5900/5950X. Necesitas aun mas? Tambien ofrecemos a clientes selectos soluciones High-End con las plataformas Intel Xeon y AMD EPYC. Si deseas mas informes te invitamos a contactarnos para verificar disponibilidad!"]},
+    
+    {"tag": "PSU",
+    "patterns": ["fuente de poder", "psu", "fuente", "watts", "potencia", "levanta", "aguanta", "alimentar gpu"],
+    "responses": ["La fuente de poder es lo que permite alimentar a tu equipo de computo con energia. Dependiendo de tu equipo, puedes requerir mas o menos watts. Si tu equipo es Gaming, la sugerencia es tener una fuente de al menos 550W. Si tu equipo es para uso basico, una fuente de 400W es suficiente. Mientras que si te dedicas al ambito profesional o juegas con un equipo gaming de alto rendimiento, la sugerencia es una fuente de al menos 850W. Compra solo de marcas confiables y con certificaciones 85+. EVGA, Corsair, XPG, Cooler Master, Deepcool y Seasonic tienen las mejores opciones para ti."]}
+
+]}
