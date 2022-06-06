@@ -79,7 +79,6 @@ def get_response(intents_list, intents_json):
             result = random.choice(i['responses'])
             # print(i['tag'])
             break
-
     return result, tag
 
 # Ciclo while del chatbot. Termina cuando se obtiene una respuesta de la clase 'goodbye'.
@@ -87,13 +86,16 @@ def get_response(intents_list, intents_json):
 
 
 # Token del bot
-TOKEN = "OTgyODA4OTgxOTUxMDkwNzY4.GDDuYa.v1g72MAW9EEHJsVMQWiIRHNAg7cvyG7k2_Gef4"
+TOKEN = "OTgyODA4OTgxOTUxMDkwNzY4.G-d7Xt.ns3-aTo5LQltyr4zPqE8duX4jzjVglbGE8A2pI"
 client = discord.Client()
 #message = input()
 
 
 @client.event
 async def on_message(message):
+    username = str(message.author).split('#')[0]
+    user_message = str(message.content)
+    channel = str(message.channel.name)
     if message.author == client.user:
         return
     # if message != "":

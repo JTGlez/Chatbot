@@ -3,11 +3,11 @@
     
     {"tag": "greetings",
     "patterns": ["hola", "buenos dias", "buenas tardes", "que tal", "mucho gusto", "hey"],
-    "responses": ["Hola! Bienvenido a la tienda. En qué puedo ayudarte?", 
+    "responses": ["Hola! Bienvenido a la tienda. En que puedo ayudarte?", 
         "Mucho gusto. Que puedo hacer por ti?", "Bienvenido. Necesitas ayuda?"]},
 
     {"tag": "goodbye",
-    "patterns": ["gracias", "hasta luego", "saludos", "muchas gracias", "adios", "le agradezco"],
+    "patterns": ["gracias", "hasta luego", "saludos", "muchas gracias", "adios", "le agradezco", "nos vemos", "nos vemos pronto", "chao", "bye"], 
     "responses": ["De nada! Hasta luego!", "De nada! Gracias por visitarnos!", "Esperamos que vuelvas pronto!"]},
 
     {"tag": "shop",
@@ -21,6 +21,19 @@
     {"tag": "stocks",
     "patterns": ["que venden", "productos", "categorias", "oferta", "venta", "stock", "inventario"],
     "responses": ["Tenemos una amplia gama de equipos de computacion, perifericos y accesorios: CPU, GPU, Motherboards, RAM, Perifericos, Discos Duros, SSD, etc. Que necesitas?"]},
+
+    {"tag": "ventilador",
+    "patterns": ["ventilador", "ventilacion", "refrigeracion", "ventiladores", "aire", "flujo de aire", "fans", "120mm", "140mm", "200mm", "80mm", "90mm", "rpm", "cfm", "presion estatica"], 
+    "responses": ["Contamos con una amplia gama de ventiladores, con marcas reconocidas como Noctua o ARCTIC para aquellos que quieren un estilo sobrio.", "Te interesan los ventiladores vistosos y llenos de colores? Revisa las opciones que tenemos con marcas como Corsair, Cooler Master y Silverstone.", "Contamos con ventiladores de alta presion para disipadores de alto rendimiento. Recomendamos el Noctua Noctua NF-F12 iPPC-3000 PWM para aplicaciones de refrigeracion de alta presion."]},
+
+    {"tag": "gabinetes",
+    "patterns": ["gabinete", "gabinetes", "tamaño gabinete", "atx", "micro atx", "mini itx", "cristal", "acrilico", "vidrio templado", "expansion", "airflow", "cerrado", "puertos"], 
+    "responses": ["Necesitas un gabinete sencillo? Tenemos una amplia gama de gabinetes para que puedas elegir entre uno de nuestros modelos ACTECK o Yeyian.", "¿Te interesan los gabinetes de alto rendimiento? Revisa las opciones que tenemos con marcas como ASUS, Aorus, Be Quiet, Corsair y Lian Li."]},
+
+    {"tag": "rgb",
+    "patterns": ["tiras led", "argb", "rgb", "aro led", "barra rgb", "tira led", "tira argb", "luces", "lucesitas", "colores"], 
+    "responses": ["Las tiras led vienen en 2 tipos: RGB y ARGB. Las ARGB emplean una interfaz de 3 pines y disponen de una amplia gama de colores y efectos. Por otra parte, las RGB utilizan una interfaz de 4 pines y solo pueden mostrar un unico color a la vez. Decora con potencia y luces tu gabinete! Ademas, tendras mas FPS. ;)"]},
+
 
     {"tag": "ProcesadorCPU",
     "patterns": ["cpu videojuegos", "procesador gaming", "procesador juegos", "cpu juegos", "procesador videojuegos"],
