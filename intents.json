@@ -15,7 +15,7 @@
     "responses": ["Estamos ubicados en la calle de Las Lomas #7 del Centro Historico, CDMX. C.P: 07261."]},
 
     {"tag": "hours",
-    "patterns": ["a que hora abren", "horario", "hora", "horas de apertura", "abierto", "atencion", "servicio", "cerrado", "a que hora cierran"],
+    "patterns": ["a que hora abren", "horario", "hora", "horas de apertura", "abierto", "atencion", "servicio", "cerrado", "a que hora cierran", "cuales son sus horarios"],
     "responses": ["Nuestros horarios de atencion son de lunes a viernes de 9:00 a.m. a 9:00 p.m."]},
 
     {"tag": "stocks",
